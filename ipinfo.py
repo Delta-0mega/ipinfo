@@ -8,7 +8,7 @@ for library in libraries:
         importlib.import_module(library)
     except ImportError:
         os.system(f"pip install {library}")
-os.system("cls")
+os.system('cls' if os.name == 'nt' else 'clear')
 
 from colorama import Fore
 import requests
