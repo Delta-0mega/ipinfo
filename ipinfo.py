@@ -41,7 +41,7 @@ else:
                 █▀    ▄████▀           █▀    ▀█   █▀    ███         ▀██████▀  
                                                                             
                                     (enter exit to leave)
-                                [DISCORD] dsc.gg/delta-omega                                       
+                                  [DISCORD] dsc.gg/iv-night                                       
         """
         
         banner2 = fade.fire(banner)
@@ -86,7 +86,7 @@ else:
         else:
             a = fade.fire("------------------------------------------------------------")
             print(a)
-            dsc = fade.fire("[DISCORD] dsc.gg/delta-omega")
+            dsc = fade.fire("[DISCORD] dsc.gg/iv-night")
             print(dsc)
         it = Fore.YELLOW + "[INPUT] ADRESSE IP : "
         adresse_ip = input(it)
